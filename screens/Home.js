@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar'
 import React from 'react'
 import { Dimensions, SafeAreaView, StyleSheet, Text, View } from 'react-native'
+import Categories from '../components/Categories'
 import HeaderTbs from '../components/HeaderTbs'
 import SearchBar from '../components/SearchBar'
 
@@ -17,6 +18,7 @@ const Home = () => {
                 <HeaderTbs />
                 <SearchBar />
             </View >
+            <Categories />
 
 
 
